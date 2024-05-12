@@ -1,0 +1,4 @@
+#apMap {
+    width: 80%; /* neem de volle breedte in van het parent element */
+    height: 300px;
+}

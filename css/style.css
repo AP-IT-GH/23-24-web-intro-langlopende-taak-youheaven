@@ -1,0 +1,114 @@
+.nav-link:active, .nav-link:focus {
+    background-color: rgb(77, 171, 230);
+    color: white;
+  }
+  
+ .btn {
+    background-color: rgb(77, 171, 230);
+    color: white;
+  }
+
+  .my-image {
+    width: 90%;
+    height: 200px; 
+    
+  }
+
+  .lichtblauw{color: rgb(94, 150, 206);}
+
+  .my-card {
+    border: 2px solid #007bff; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    height: 300px; 
+    overflow: auto; 
+  }
+
+  .my-picture {width: 80%;
+    height: 607px;}
+
+  .my-netspace{width: 100%;
+    height: 400px;}
+
+  .my-figcaption {
+      text-align: center;
+  }
+ 
+  
+  
+  :root {
+      --light-blue: #ADD8E6;
+      --steel-blue: #4682B4;
+      --teal-blue: #466D9F;
+  }
+
+  .navbar, .footer {
+      background-color: var(--steel-blue);
+      color: white;
+      
+  }
+
+  .card {
+      background-color: white;
+      color: var(--teal-blue);
+      border: 2px solid var(--steel-blue);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+  }
+
+  
+
+  .card a {
+      color: var(--steel-blue);
+  }
+
+  .card a:hover {
+      color: var(--teal-blue);
+  }
+
+  .figure-img {
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .card-header {
+      background-color: var(--steel-blue);
+      color: white;
+  }
+
+  .card-footer {
+      background-color: var(--steel-blue);
+      color: white;
+  }
+
+  .card-title {
+      color: var(--steel-blue);
+  }
+
+  .card-text {
+      color: var(--teal-blue);
+  }
+
+  .list-group-item {
+      color: var(--steel-blue);
+  }
+
+
+  #copyright {
+    color: #000;
+    margin-bottom: 0;
+  }
+  
+  .btn-social-icon {
+    margin-right: 10px; 
+  }
+  
+  .btn-social-icon:last-child {
+    margin-right: 0; 
+  }
+  
+  
+
+
+  

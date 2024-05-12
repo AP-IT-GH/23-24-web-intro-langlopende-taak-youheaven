@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>diensten</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.0.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- reset jouw css -->
+    <link href="./css/reset.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- JavaScript: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+    <!-- eigen geschreven css voor jouw html-bestand -->
+    <link href="./css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" defer></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" defer></script>
 </head>
-
 <body>
   <header>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="#"><img src="/assets/logo.png" width="110" height="110" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <section class="collapse navbar-collapse flex-column align-items-end ml-auto" id="navbarNav">
@@ -34,122 +38,123 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
-            <form class="form-inline mt-2">
-              <input class="form-control mr-sm-2" type="search" placeholder="Zoeken" aria-label="Zoeken">
+            <form class="d-flex mt-2">
+              <input class="form-control me-2" type="search" placeholder="Zoeken" aria-label="Zoeken">
               <button class="btn" type="submit">Zoeken</button>
             </form>
         </section>
     </nav>
-  </header>
-  <hr class="lijn">
-</body>
-</html>
+</header>
+<hr class="lijn">
 <main>
-        <section class="row">
-          <article class="col-12 col-sm-6 col-md-4 themed-grid-col d-flex justify-content-center">
-            <section class="card border-primary mb-3 text-center" style="max-width: 18rem;">
-              <a href="/dns.html"><header class="card-header">DNS</header></a>
-              <a href="/dns.html" rel="noopener">
+    <section class="row mx-3">
+        <article class="dienst-item col-12 col-sm-6 col-md-4 themed-grid-col d-flex justify-content-center px-2 mb-3">
+            <section class="card border-primary text-center w-100">
+                <a href="/dns.html"><header class="card-header">DNS</header></a>
                 <figure class="mt-3">
-                  <img src="/assets/dns.jpg" class="card-img-top img-fluid my-image" alt="foto van DNS" title="Domain Name System">
-                  <figcaption class="h6 small mt-2">© Stock Photo, Getty Images</figcaption>
+                    <a href="/dns.html" rel="noopener">
+                        <img src="/assets/dns.jpg" class="card-img-top img-fluid my-image" alt="foto van DNS" title="Domain Name System">
+                    </a>
+                    <figcaption class="h6 small mt-2">© Stock Photo, Getty Images</figcaption>
                 </figure>
-              </a>
-              <section class="card-body">
-                <p class="card-text">DNS is de gids van het internet! Het vertaalt webadressen naar IP-adressen, zodat je browser de juiste website vindt. Snel, efficiënt en onmisbaar voor online navigatie.</p>
-              </section>
+                <section class="card-body">
+                    <p class="card-text">DNS is de gids van het internet! Het vertaalt webadressen naar IP-adressen, zodat je browser de juiste website vindt. Snel, efficiënt en onmisbaar voor online navigatie.</p>
+                </section>
             </section>
-          </article>
-          <article class="col-12 col-sm-6 col-md-4 themed-grid-col d-flex justify-content-center">
-            <section class="card border-primary mb-3 text-center" style="max-width: 18rem;">
-              <a href="/netwerkbeveiligin.html"><header class="card-header">Netwerkbeveiliging</header></a>
-              <a href="/netwerkbeveiligin.html" rel="noopener">
+        </article>
+        <article class="dienst-item col-12 col-sm-6 col-md-4 themed-grid-col d-flex justify-content-center px-2 mb-3">
+            <section class="card border-primary text-center w-100">
+                <a href="/netwerkbeveiligin.html"><header class="card-header">Netwerkbeveiliging</header></a>
                 <figure class="mt-3">
-                  <img src="/assets/netwerkbeveiliging.jpg" class="card-img-top img-fluid my-image" alt="foto van netwerkbeveiliging" title="netwerkbeveiliging">
-                  <figcaption class="h6 small mt-2">© freepik</figcaption>
+                    <a href="/netwerkbeveiligin.html" rel="noopener">
+                        <img src="/assets/netwerkbeveiliging.jpg" class="card-img-top img-fluid my-image" alt="foto van netwerkbeveiliging" title="netwerkbeveiliging">
+                    </a>
+                    <figcaption class="h6 small mt-2">© freepik</figcaption>
                 </figure>
-              </a>
-              <section class="card-body">
-                <p class="card-text">Netwerkbeveiliging is je digitale schild! Het beschermt je netwerk tegen ongeoorloofde toegang en houdt je gegevens veilig. Een must voor een veilige online ervaring! </p>
-              </section>
+                <section class="card-body">
+                    <p class="card-text">Netwerkbeveiliging is je digitale schild! Het beschermt je netwerk tegen ongeoorloofde toegang en houdt je gegevens veilig. Een must voor een veilige online ervaring! </p>
+                </section>
             </section>
-          </article>
-          <article class="col-12 col-sm-6 col-md-4 themed-grid-col d-flex justify-content-center">
-            <section class="card border-primary mb-3 text-center" style="max-width: 18rem;">
-              <a href="/cloudcomputing.html"><header class="card-header">Cloudcomputing</header></a>
-              <a href="/cloudcomputing.html" rel="noopener">
+        </article>
+        <article class="dienst-item col-12 col-sm-6 col-md-4 themed-grid-col d-flex justify-content-center px-2 mb-3">
+            <section class="card border-primary text-center w-100">
+                <a href="/cloudcomputing.html"><header class="card-header">Cloudcomputing</header></a>
                 <figure class="mt-3">
-                  <img src="/assets/cloudcomputing.jpg" class="card-img-top img-fluid my-image" alt="foto van cloudcomputing" title="cloudcomputing">
-                  <figcaption class="h6 small mt-2">© rawpixel</figcaption>
+                    <a href="/cloudcomputing.html" rel="noopener">
+                        <img src="/assets/cloudcomputing.jpg" class="card-img-top img-fluid my-image" alt="foto van cloudcomputing" title="cloudcomputing">
+                    </a>
+                    <figcaption class="h6 small mt-2">© rawpixel</figcaption>
                 </figure>
-              </a>
-              <section class="card-body">
-                <p class="card-text">Cloud computing is je digitale magazijn! Het biedt toegang tot gegevens en diensten via het internet, in plaats van ze lokaal op te slaan. Altijd beschikbaar, waar je ook bent. Een revolutie in de manier waarop we werken!</p>
-              </section>
+                <section class="card-body">
+                    <p class="card-text">Cloud computing is je digitale magazijn! Het biedt toegang tot gegevens en diensten via het internet, in plaats van ze lokaal op te slaan. Altijd beschikbaar, waar je ook bent. Een revolutie in de manier waarop we werken!</p>
+                </section>
             </section>
-          </article>
-        </section>
-        <section class="row">
-          <article class="shop-item col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-            <section class="card border-primary mb-3 text-center" style="max-width: 18rem;">
-              <a href="/sdn.html"><header class="card-header">Software Defined Networking</header></a>
-              <a href="/sdn.html" rel="noopener">
+        </article>
+    </section>
+    <section class="row mx-3">
+        <article class="dienst-item col-12 col-sm-6 col-md-4 d-flex justify-content-center px-2 mb-3">
+            <section class="card border-primary text-center w-100">
+                <a href="/sdn.html"><header class="card-header">SDN</header></a>
                 <figure class="mt-3">
-                  <img src="/assets/sdn.jpg" class="card-img-top img-fluid my-image" alt="foto van sdn" title="sdn">
-                  <figcaption class="h6 small mt-2">© royalty-free stock photo</figcaption>
+                    <a href="/sdn.html" rel="noopener">
+                        <img src="/assets/sdn.jpg" class="card-img-top img-fluid my-image" alt="foto van sdn" title="sdn">
+                    </a>
+                    <figcaption class="h6 small mt-2">© royalty-free stock photo</figcaption>
                 </figure>
-              </a>
-              <section class="card-body">
-                <p class="card-text">Software Defined Networking (SDN) is de verkeersleider van je netwerk! Het maakt netwerken flexibel en aanpasbaar. Altijd in controle, altijd efficiënt!</p>
-              </section>
+                <section class="card-body">
+                    <p class="card-text">Software Defined Networking (SDN) is de verkeersleider van je netwerk! Het maakt netwerken flexibel en aanpasbaar. Altijd in controle, altijd efficiënt!</p>
+                </section>
             </section>
-          </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-            <section class="card border-primary mb-3 text-center" style="max-width: 18rem;">
-              <a href="/iot.html"><header class="card-header">Internet of Things</header></a>
-              <a href="/iot.html" rel="noopener">
+        </article>
+        <article class="dienst-item col-12 col-sm-6 col-md-4 d-flex justify-content-center px-2 mb-3">
+            <section class="card border-primary text-center w-100">
+                <a href="/iot.html"><header class="card-header">Internet of Things</header></a>
                 <figure class="mt-3">
-                  <img src="/assets/iot.jpg" class="card-img-top img-fluid my-image" alt="internet of things" title="iot">
-                  <figcaption class="h6 small mt-2">© freepik</figcaption>
+                    <a href="/iot.html" rel="noopener">
+                        <img src="/assets/iot.jpg" class="card-img-top img-fluid my-image" alt="internet of things" title="iot">
+                    </a>
+                    <figcaption class="h6 small mt-2">© freepik</figcaption>
                 </figure>
-              </a>
-              <section class="card-body">
-                <p class="card-text">Internet of Things (IoT) is de wereldwijde web van apparaten! Het verbindt alledaagse objecten met het internet, waardoor ze gegevens kunnen delen en uitwisselen. Altijd verbonden, altijd slim!</p>
-              </section>
+                <section class="card-body">
+                    <p class="card-text">Internet of Things (IoT) is de wereldwijde web van apparaten! Het verbindt alledaagse objecten met het internet, waardoor ze gegevens kunnen delen en uitwisselen. Altijd verbonden, altijd slim!</p>
+                </section>
             </section>
-          </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-            <section class="card border-primary mb-3 text-center" style="max-width: 18rem;">
-              <a href="/draadlozenetwerken.html"><header class="card-header">Draadloze netwerken</header></a>
-              <a href="/draadlozenetwerken.html" rel="noopener">
+        </article>
+        <article class="dienst-item col-12 col-sm-6 col-md-4 d-flex justify-content-center px-2 mb-3">
+            <section class="card border-primary text-center w-100">
+                <a href="/draadlozenetwerken.html"><header class="card-header">Draadloze netwerken</header></a>
                 <figure class="mt-3">
-                  <img src="/assets/draadlozenetwerken.png" class="card-img-top img-fluid my-image" alt="foto van draadloze netwerken" title="wifi">
-                  <figcaption class="h6 small mt-2">© freepik</figcaption>
+                    <a href="/draadlozenetwerken.html" rel="noopener">
+                        <img src="/assets/draadlozenetwerken.png" class="card-img-top img-fluid my-image" alt="foto van draadloze netwerken" title="wifi">
+                    </a>
+                    <figcaption class="h6 small mt-2">© freepik</figcaption>
                 </figure>
-              </a>
-              <section class="card-body">
-                <p class="card-text">Draadloze netwerken zijn je digitale snelwegen zonder kabels! Ze verbinden apparaten via radiosignalen, waardoor je overal toegang hebt tot het internet. Altijd verbonden, altijd vrij! </p>
-              </section>
+                <section class="card-body">
+                    <p class="card-text">Draadloze netwerken zijn je digitale snelwegen zonder kabels! Ze verbinden apparaten via radiosignalen, waardoor je overal toegang hebt tot het internet. Altijd verbonden, altijd vrij! </p>
+                </section>
             </section>
-          </article>
-        </section>
+        </article>
+    </section>
 </main>
 <footer class="footer mt-auto py-3 bg-light">
-  <div class="container text-center">
-    <a href="https://www.instagram.com" class="btn btn-social-icon btn-instagram">
-      <i class="fa fa-instagram"></i>
-    </a>
-    <a href="https://www.facebook.com/" class="btn btn-social-icon btn-facebook">
-      <i class="fa fa-facebook"></i>
-    </a>
-    <a href="https://www.youtube.com/" class="btn btn-social-icon btn-youtube">
-      <i class="fa fa-youtube"></i>
-    </a>
-  </div>
-</footer>
-
-
-<
+    <div class="container d-flex justify-content-between align-items-center">
+      <p id="copyright">© 2024 Youssef El Hatri</p>
+      <div class="d-flex justify-content-center flex-grow-1">
+        <a href="https://www.instagram.com" class="btn btn-social-icon btn-instagram mr-2">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/" class="btn btn-social-icon btn-facebook mr-2">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://www.youtube.com/" class="btn btn-social-icon btn-youtube mr-2">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a href="https://www.twitter.com/" class="btn btn-social-icon btn-twitter">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
 
